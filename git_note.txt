@@ -26,4 +26,22 @@ git diff #review changes before commit
 git add git_note.txt #do this first before commit
 git commit -m "Next change"
 
-#editing -> add -> commit
+#editing(change) -> add(stage change) -> commit(archive_
+git diff #compare changed with added
+git diff --staged #compare added with committed with added
+
+#check current commit with old commit
+git diff HEAD~1 #compare latest version with 1 back version
+git diff HEAD~2 #compare latest version with 2 back version
+
+#revert back to older version
+git checkout HEAD git_note.txt
+#ignore all the data file *.dat in the git folder 
+.gitignore *.dat
+
+#use GitHub to sync between computers
+#make new repo in the GitHub
+#push from local to GitHub by get URL
+git remote add origin https://github.com/tadakimi/git_lesson.git
+git remore -v #check if it is set
+git push origin master # push from local to GitHub master branch
