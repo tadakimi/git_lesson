@@ -1,0 +1,12 @@
+git config --global user.name "Tadakimi Tomita"
+git config --global user.email "teatimest@gmail.com"
+git config --global color.ui "auto"
+
+cd "C:\Users\Kiyoko\Dropbox\R course\NYAS"
+git init
+git status
+
+#don't initialize a folder in another git initialized folder
+#result in the deletion of history
+#create directory in separate folder
+
