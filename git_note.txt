@@ -1,3 +1,4 @@
+#use git shell that came with GitHub for Windows
 git config --global user.name "Tadakimi Tomita"
 git config --global user.email "teatimest@gmail.com"
 git config --global color.ui "auto"
@@ -9,4 +10,11 @@ git status
 #don't initialize a folder in another git initialized folder
 #result in the deletion of history
 #create directory in separate folder
+#add file
 
+git status #it says untracked file
+git add git_note.txt #added file
+git status #says changes to be committed
+git commit -m "Start notes on git"
+#after commit it generates 7 digit cha/num identifyer
+git log #what is change, when, who
