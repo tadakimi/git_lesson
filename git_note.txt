@@ -45,3 +45,4 @@ git checkout HEAD git_note.txt
 git remote add origin https://github.com/tadakimi/git_lesson.git
 git remore -v #check if it is set
 git push origin master # push from local to GitHub master branch
+git pull origin master # pull from the server
