@@ -18,3 +18,12 @@ git status #says changes to be committed
 git commit -m "Start notes on git"
 #after commit it generates 7 digit cha/num identifyer
 git log #what is change, when, who
+#make change
+git status #says "changes not staged for commit"
+git diff #review changes before commit
+	+ is the new added change
+	- is the new delete change
+git add git_note.txt #do this first before commit
+git commit -m "Next change"
+
+#editing -> add -> commit
